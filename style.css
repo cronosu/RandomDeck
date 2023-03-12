@@ -38,8 +38,8 @@ label {
     padding: 10px;
     border-radius: 5px;
     text-align: center;
-    margin-left: 50px;
-    width: 51%;
+    margin-left: 50.5px;
+    width: 50%;
 }
 
 .carte {
@@ -71,3 +71,14 @@ label {
     mix-blend-mode: hard-light;
     background: radial-gradient(circle at 50% 0%, rgba(217, 235, 252, 0), transparent);
 }
+
+.btn{
+    transition: bouton 1sec cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.btn:hover{
+    background-color: rgb(60, 63, 235);
+   
+ 
+}
+

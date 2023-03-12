@@ -3390,21 +3390,6 @@
         "name": "modok"
     },
     {
-        "cid": "386",
-        "cname": "Annihilus",
-        "type": "Character",
-        "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/annihilus.webp?v=25",
-        "url": "https://marvelsnapzone.com/cards/annihilus",
-        "ability": "On Reveal: Each of your cards randomly chooses a location to move to.",
-        "cost": "6",
-        "power": "5",
-        "carddefid": "MovingOut",
-        "uuid": "jwp8sxenko46rbv8wyfz",
-        "source": "",
-        "source_slug": "",
-        "name": "annihilus"
-    },
-    {
         "cid": "379",
         "cname": "Attuma",
         "type": "Character",
