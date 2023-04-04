@@ -69,6 +69,7 @@ label {
     margin-top: 20px;
 }
 #refresh-btn:hover {
+   
     background-color: rgba(14, 14, 197, 0.51);
 }
 .glow {
