@@ -1,14 +1,19 @@
+/* {
+    border: 1px solid black;
+}*/
+
 html {
     background-image: url("https://images3.alphacoders.com/128/1281451.png");
     background-repeat: no-repeat;
     background-size: cover;
 
 }
+
 @media (max-width: 1640px) {
     html {
         background-image: url("https://images.hdqwalls.com/download/marvel-snap-40-1125x2436.jpg");
         background-repeat: repeat;
-  }
+    }
 }
 
 body {
@@ -40,7 +45,8 @@ body {
 }
 
 img {
-    transition: all 0.15s ease-out;
+    transition: filter 30s ease;
+
 }
 
 label {
@@ -68,10 +74,12 @@ label {
     transform: translateX(-50%);
     margin-top: 20px;
 }
+
 #refresh-btn:hover {
-   
+
     background-color: rgba(14, 14, 197, 0.51);
 }
+
 .glow {
     position: absolute;
     top: 65px;
@@ -86,7 +94,7 @@ label {
 }
 
 .btn {
-    
+
     transition: bouton 1sec cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -94,3 +102,22 @@ label {
     background-color: rgba(60, 63, 235, 0.481);
 }
 
+
+
+.description {
+    visibility: hidden;
+    padding: 5px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 100%;
+    overflow-wrap: break-word;
+}
+
+
+.descriptionVisible {
+    visibility: visible;
+
+}
